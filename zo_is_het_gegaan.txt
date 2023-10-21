@@ -1,0 +1,11 @@
+echo "fastai" >> README.md
+ git init
+ git add README.md
+ git commit -m "first commit"
+ git branch -M main
+ git remote add origin git@github.com:Johan-van-den-Berg/fastai.git
+ git push -u origin main
+foutmelding
+nadat  `git remote set-url origin git@github.com:Johan-van-den-Berg/fastai`
+kon `git push -u origin main` alsnog
+
